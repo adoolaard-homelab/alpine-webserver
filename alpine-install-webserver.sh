@@ -81,7 +81,7 @@ read install_php
 
 if [ "$install_php" = "y" ]; then
   # apk add php82 php82-cli php82-fpm php82-mbstring php82-xml php82-gd php82-json
-	apk add php82-fpm php82-session php82-soap php82-openssl php82-gmp php82-pdo_odbc php82-json php82-dom php82-pdo php82-zip php82-mysqli php82-sqlite3 php82-apcu php82-pdo_pgsql php82-bcmath php82-gd php82-odbc php82-pdo_mysql php82-pdo_sqlite php82-gettext php82-xmlreader php82-bz2 php82-iconv php82-pdo_dblib php82-curl php82-ctype php82-intl php82-mbstring php82-xml php82-simplexml
+	apk add php82-fpm php82-session php82-soap php82-openssl php82-gmp php82-pdo_odbc php82-json php82-dom php82-pdo php82-zip php82-mysqli php82-sqlite3 php82-apcu php82-pdo_pgsql php82-bcmath php82-gd php82-odbc php82-pdo_mysql php82-pdo_sqlite php82-gettext php82-xmlreader php82-bz2 php82-iconv php82-pdo_dblib php82-curl php82-ctype php82-intl php82-mbstring php82-xml php82-simplexml php82-cli
 
 	rc-update add php-fpm82 default
   
